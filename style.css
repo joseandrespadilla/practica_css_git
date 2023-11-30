@@ -1,141 +1,139 @@
 @font-face {
-    font-family: tipografia;
-    src: url(/fonts/Roboto-Regular,ttf);
+  font-family: tipografia;
+  src: url(/fonts/Roboto-Regular,ttf);
 }
 *{
-    font-family: tipografia;
-    font-family: 'Ubuntu';
-    font-size: 'Ubuntu';
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 0%;
-    margin: 0%;
-    outline: none;
-    list-style: none;
+  font-family: tipografia;
+  font-family: 'Ubuntu';
+  font-size: 'Ubuntu';
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0%;
+  margin: 0%;
+  outline: none;
+  list-style: none;
 }
 
 .header {
-    width: 600px;
-    height: 100px;
+position: flex;
+top: 0%;
+left: 0%;
+width: 100%;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 30px;
+  align-items: center;
+}
+
+.navbar .list {
+  display: flex;
+  gap: 1rem;
+}
+.navbar .list li {
+  width: max-content;
+}
+nav button{
+  background-color: transparent;
+  color: #ffffff;
+}
+main section button{
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.button {
+  border-radius: 2rem;
+  border: solid 2px;
+  background-color: transparent;
+  padding: 1rem;
+  transition: background-color 1s;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+body{
+  background-image:linear-gradient(rgb(0, 38, 255), rgb(0, 115, 192));
+  color: #ffffff;
+}
+
+.jumbotron {
+  
+  text-align: center;
+  padding: 40pt;
+}
+.jumbotron h1 {
+  margin-bottom: 8pt;
+}
+
+.jumbotron p{
+  margin-bottom: 20pt;
+}
+
+img{
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 30px;
+  align-items: center;
+}
+ 
+ h1{
+
+  font-size: 24pt;
+  
   }
 
-  .header .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 30px;
-    align-items: center;
-  }
+ h2{
   
-  .navbar .list {
-    display: flex;
-    gap: 1rem;
-  }
-  .navbar .list li {
-    width: max-content;
-  }
-  nav button{
-    background-color: transparent;
-    color: #ffffff;
-  }
-  main section button{
-    background-color: transparent;
-    color: #ffffff;
-  }
+  font-size: 20pt;
+  margin-bottom: 20pt;
   
-  .button {
-    border-radius: 2rem;
-    border: solid 2px;
-    background-color: transparent;
-    padding: 1rem;
-    transition: background-color 1s;
-  }
-  
-  .button:hover {
-    background-color: #000000;
-  }
-  
-  body{
-    background-image:linear-gradient(rgb(0, 38, 255), rgb(0, 115, 192));
-    color: #ffffff;
-  }
-  
-  .jumbotron {
-    
-    text-align: center;
-    padding: 40pt;
-  }
-  .jumbotron h1 {
-    margin-bottom: 8pt;
-  }
-  
-  .jumbotron p{
-    margin-bottom: 20pt;
-  }
-  
-  img{
-    border-radius: 20%;
-    object-fit: cover;
-    transition: transform 1s ease-in-out;
-  }
-    
-  img:hover {
-      transform: scale(1.2);
-     }
-  .images {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem 30px;
-    align-items: center;
-  }
-   
-   h1{
-  
-    font-size: 24pt;
-    
-    }
-  
-   h2{
-    
-    font-size: 20pt;
-    margin-bottom: 20pt;
-    
-    }
-
-   h3 h4 {
-    font-size: 24pt;
-    font-weight: 800;
-  }
-  
-  main section h2{
-    color: rgb(255, 255, 255);
-  }
-  
-  .right {
-    text-align: right
-  }
-  
-  section {
-    padding: 17pt 40px;
-    perspective: 1000px
-  }
-  div {
-    padding: 12pt 30px;
-  }
-  
-  form button{
-    color: #ffffff;
-    background-color: #ffffff;
-  }
-  
-  .footer .navbar2 {
-    background-color: #0e2050;
-    display: flex;
-    justify-content: space-between;
-    padding: 5;
-    align-items: center;
-  }
-    
-  .navbar2 .list2 {
-    width: max-content;
   }
 
+ h3 h4 {
+  font-size: 24pt;
+  font-weight: 800;
+}
+
+main section h2{
+  color: rgb(255, 255, 255);
+}
+
+.right {
+  text-align: right
+}
+
+section {
+  padding: 17pt 40px;
+  perspective: 1000px
+}
+div {
+  padding: 12pt 30px;
+}
+
+form button{
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.footer .navbar2 {
+  background-color: #0e2050;
+  display: flex;
+  justify-content: space-between;
+  padding: 5;
+  align-items: center;
+}
+  
+.navbar2 .list2 {
+  width: max-content;
+}
